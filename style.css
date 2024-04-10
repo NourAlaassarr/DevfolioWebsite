@@ -165,3 +165,40 @@
 .portimage:hover img{
     scale: 1.25;
 }
+
+
+/* feedback */
+.feedbackHome{
+    background-image: url("../imgs/overlay-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3opx;
+}
+.layerfeedback{
+    background-color:rgba(49, 98, 234, 0.772);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    margin-top: 30px;
+    
+
+}
+/* feedback */
+.feedbackHome{
+    background-image: url("../imgs/overlay-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.layerfeedback{
+    background-color:rgba(19, 69, 206, 0.772);
+    width: 100%;
+    height: 100%;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
