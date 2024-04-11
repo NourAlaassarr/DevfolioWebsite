@@ -186,8 +186,7 @@
     
 
 }
-/* feedback */
-.feedbackHome{
+/* .feedbackHome{
     background-image: url("../imgs/overlay-bg.jpg");
     background-position: center;
     background-size: cover;
@@ -197,7 +196,7 @@
     background-color: #007bffc8;
     width: 100%;
     height: 100%;
-}
+} */
 .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
@@ -249,6 +248,21 @@ width: 10%;
 }
 
 
+/* Blog */
+
+.cardtext{
+    border: #0062d3 1px solid;
+    border-radius: 2px 1px;
+    padding: 5px 5px;
+    background-color: #0062d3;
+    transform: translateY(40%);
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+}
+
 /* message */
 .MessageSection{
     background-image: url("../imgs/overlay-bg.jpg");
@@ -257,8 +271,7 @@ width: 10%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
-  
-    
+
 }
 .linetitle2{
     border-bottom: #007aff 5px solid;
