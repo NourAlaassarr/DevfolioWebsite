@@ -86,6 +86,7 @@
     background-attachment: fixed;
     background-position: center center;
     background-size:cover;
+    
     height:50vh;
 }
 
@@ -174,6 +175,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 3opx;
+    background-attachment: fixed;
 }
 .layerfeedback{
     background-color:rgba(49, 98, 234, 0.772);
@@ -292,11 +294,17 @@ width: 10%;
 .roundedcircle{
     border: #007aff 4px solid;
     padding: 10px 10px;
+    transition: all 0.5 ease-in;
 }
 .roundedcircle i{
     font-size: 20px;
 }
 
+.roundedcircle:hover{
+    background-color: #0062d3;
+    color: white;
+    box-shadow: 0 0 0 5px #cde1f8;
+}
 
 /* footer */
 
