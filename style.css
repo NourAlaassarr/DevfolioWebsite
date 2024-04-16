@@ -1,10 +1,279 @@
 
 .color-mine{
-     background-color:#f5f5f5;
+    background-color:#f5f5f5;
 }
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
+body{
+  background-color: #f5f5f5;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.774);
+    
+    position:fixed;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    color: white;
+    font-size: 18px;
+}
+.navbar-brand{
+    font-size: 24px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+
+.animatedText::after {
+    content: "";
+    animation: typing 11s infinite;
+    font-size: calc(0.8rem + 2vw);
+    font-weight: 500;
+    color: white;
+  }
+  @keyframes typing {
+    0% {
+      content: "|";
+    }
+    1% {
+      content: "De|";
+    }
+    2% {
+      content: "Des|";
+    }
+    4% {
+      content: "Desi|";
+    }
+    5% {
+      content: "Desig|";
+    }
+    7% {
+      content: "Design|";
+    }
+    9% {
+      content: "Designer|";
+    }
+    10% {
+      content: "Designe|";
+    }
+    12% {
+      content: "Design|";
+    }
+    13% {
+      content: "Desig|";
+    }
+    15% {
+      content: "Desi|";
+    }
+    17% {
+      content: "Des|";
+    }
+    19% {
+      content: "De|";
+    }
+    21% {
+      content: "Dev|";
+    }
+    22% {
+      content: "Deve|";
+    }
+    24% {
+      content: "Devel|";
+    }
+    25% {
+      content: "Develo|";
+    }
+    27% {
+      content: "Develop|";
+    }
+    28% {
+      content: "Develope|";
+    }
+    30% {
+      content: "Developer|";
+    }
+    32% {
+      content: "Develope|";
+    }
+    33% {
+      content: "Develop|";
+    }
+    34% {
+      content: "Develo|";
+    }
+    35% {
+      content: "Develo|";
+    }
+    36% {
+      content: "Devel|";
+    }
+    37% {
+      content: "Deve|";
+    }
+    38% {
+      content: "Dev|";
+    }
+    39% {
+      content: "De|";
+    }
+    40% {
+      content: "D|";
+    }
+    41% {
+      content: "|";
+    }
+    42% {
+      content: "P|";
+    }
+    44% {
+      content: "Ph|";
+    }
+    45% {
+      content: "Pho|";
+    }
+    47% {
+      content: "Phot|";
+    }
+    48% {
+      content: "Photo|";
+    }
+    50% {
+      content: "Photog|";
+    }
+    51% {
+      content: "Photogr|";
+    }
+    53% {
+      content: "Photogra|";
+    }
+    55% {
+      content: "Photograp|";
+    }
+    57% {
+      content: "Photograph|";
+    }
+    59% {
+      content: "Photographe|";
+    }
+    61% {
+      content: "Photographer|";
+    }
+    63% {
+      content: "Photographe|";
+    }
+    65% {
+      content: "Photograph|";
+    }
+    67% {
+      content: "Photograp|";
+    }
+    69% {
+      content: "Photogra|";
+    }
+    71% {
+      content: "Photogr|";
+    }
+    73% {
+      content: "Photog|";
+    }
+    75% {
+      content: "Photo|";
+    }
+    76% {
+      content: "Phot|";
+    }
+    77% {
+      content: "Pho|";
+    }
+    78% {
+      content: "Ph|";
+    }
+    79% {
+      content: "P|";
+    }
+    80% {
+      content: "|";
+    }
+    81% {
+      content: "F|";
+    }
+    82% {
+      content: "Fr|";
+    }
+    83% {
+      content: "Fre|";
+    }
+    84% {
+      content: "Free|";
+    }
+    85% {
+      content: "Freel|";
+    }
+    86% {
+      content: "Freela|";
+    }
+    87% {
+      content: "Freelan|";
+    }
+    88% {
+      content: "Freelanc|";
+    }
+    89% {
+      content: "Freenalce|";
+    }
+    90% {
+      content: "Freelancer|";
+    }
+    91% {
+      content: "Freelance|";
+    }
+    92% {
+      content: "Freelanc|";
+    }
+    93% {
+      content: "Freelan|";
+    }
+    94% {
+      content: "Freela|";
+    }
+    95% {
+      content: "Freel|";
+    }
+  
+    96% {
+      content: "Free|";
+    }
+    97% {
+      content: "Fre|";
+    }
+    98% {
+      content: "Fr|";
+    }
+    99% {
+      content: "F|";
+    }
+    100% {
+      content: "|";
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Home{
     background-image: url('../imgs/hero-bg.jpg');
@@ -21,9 +290,7 @@
 .HomeText h2{
     font-size: 4.5rem;
 }
-.About{
-    background-color:#f5f5f5;
-}
+
 .bar h3{
     color: #4e4e4e;
     font-size: 14px;
@@ -32,7 +299,34 @@
     font-size: 24px;
 }
 
+.AboutMe{
+  background-color: #f5f5f5;
+  margin-top: 40px;
+}
+.box-shadow-full
+{
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
 
+.abouttext{
+  font-size: 20px;
+
+}
+.SkillText{
+  font-size: 18px;
+  font-weight:300;
+}
+.progress{
+  border-radius: 0;
+}
+.AboutImg{
+  border-radius:10px 10px;
+}
 /* Service Section */
 .SERVICES{
     background-color:#f5f5f5;
