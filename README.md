@@ -16,3 +16,12 @@
 ![image](https://github.com/NourAlaassarr/DevfolioWebsite/assets/104293377/c7942573-63f9-4216-938b-e0d1d0b7b1ba)
 
 ![image](https://github.com/NourAlaassarr/DevfolioWebsite/assets/104293377/49134cbd-effd-4586-a755-774e2c3bb780)
+## How to Use:
+<hr>
+1. Clone the repository to your local machine.<br>
+2. Open the `index.html` file in your preferred web browser.<br>
+
+
+Feel free to contribute, report issues, or suggest improvements.
+
+Happy browsing!!!
